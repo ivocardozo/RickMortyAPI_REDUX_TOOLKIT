@@ -31,7 +31,7 @@ const List: FC<IProps> = (props) => {
     const listType = props.type;
     const listTypeID = Object.values(listTypes).indexOf(listType);
     const sidebarType = [sidebarTypes.characters, sidebarTypes.locations, sidebarTypes.episodes][listTypeID];
-    const listTitle = ["Characters", "Locations", "Episdoes"][listTypeID];
+    const listTitle = ["Characters", "Locations", "Episodes"][listTypeID];
     const fetchPull = [fetchPullCharacters, fetchPullLocations, fetchPullEpisodes][listTypeID];
 
     const state = useAppSelector(state => {

@@ -41,7 +41,7 @@ const EpisodePage = () => {
                 </div>
 
                 <div className="element-page__episodes">
-                    <h2 className="element-page__episodes-title">Episodes</h2>
+                    <h2 className="element-page__episodes-title">Characters</h2>
 
                     { el?.characters?.map( (character) => {
                         character = character as ICharacter;
